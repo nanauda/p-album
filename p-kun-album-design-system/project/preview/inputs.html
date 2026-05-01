@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--bg);}
+  .card{box-sizing:border-box;padding:24px;width:700px;background:#fff; display:flex; gap:16px; align-items:flex-start;}
+  .field{flex:1; display:flex; flex-direction:column; gap:8px;}
+  label{font-family:var(--font-body); font-size:13px; font-weight:600; color:var(--fg);}
+  input, textarea, select{
+    font-family:var(--font-body); font-size:15px; color:var(--fg);
+    padding:12px 16px; background:#fbfdf2; border:1.5px solid #e7ecd0;
+    border-radius:14px; outline:none; width:100%; box-sizing:border-box;
+    transition: border-color 200ms;
+  }
+  input:focus, textarea:focus{ border-color:#97a05c; background:#fff; }
+  .hint{font-family:var(--font-body); font-size:12px; color:var(--fg-subtle);}
+  .label{font-family:var(--font-body); font-size:11px; color:var(--fg-muted); letter-spacing:0.1em; text-transform:uppercase; font-weight:600; margin-bottom:0; width:100%;}
+</style></head><body>
+<div class="card">
+  <div class="label">Input fields</div>
+  <div class="field" style="flex-basis:100%;">
+    <label>アルバム名</label>
+    <input value="ひなたのおさんぽ" />
+    <span class="hint">あとで変更できます</span>
+  </div>
+  <div class="field" style="flex-basis:100%;">
+    <label>子どもの名前</label>
+    <input placeholder="例: ひなた" />
+  </div>
+</div>
+</body></html>

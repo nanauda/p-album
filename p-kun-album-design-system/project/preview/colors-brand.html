@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html, body { margin:0; padding:0; background: var(--bg); }
+  .card { box-sizing: border-box; padding: 20px 24px; width: 700px; background: #fff; color: var(--fg); }
+  .row { display:flex; align-items:center; gap: 16px; flex-wrap: wrap; }
+  .swatch {
+    width: 88px; height: 88px;
+    border-radius: 16px;
+    box-shadow: var(--shadow-sm);
+    display:flex; flex-direction:column; justify-content:flex-end;
+    padding: 8px 10px;
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .swatch .hex { opacity: 0.7; font-weight: 500; font-size: 10px; }
+  .swatch.dark { color: #fff; }
+  .label { font-family: var(--font-body); font-size: 12px; color: var(--fg-muted); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="label">Brand · Muted Yellow-Green （苔色／くすんだ黄緑）</div>
+  <div class="row">
+    <div class="swatch" style="background:#f6f7ec">50<div class="hex">#f6f7ec</div></div>
+    <div class="swatch" style="background:#e9ecd2">100<div class="hex">#e9ecd2</div></div>
+    <div class="swatch" style="background:#d3d8a8">200<div class="hex">#d3d8a8</div></div>
+    <div class="swatch" style="background:#b6bd7c">300<div class="hex">#b6bd7c</div></div>
+    <div class="swatch dark" style="background:#97a05c">400★<div class="hex">#97a05c</div></div>
+    <div class="swatch dark" style="background:#7a8347">500<div class="hex">#7a8347</div></div>
+    <div class="swatch dark" style="background:#5d6535">600<div class="hex">#5d6535</div></div>
+  </div>
+</div>
+</body></html>

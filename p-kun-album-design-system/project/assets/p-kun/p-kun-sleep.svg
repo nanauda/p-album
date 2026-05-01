@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="240" height="280">
+  
+  <ellipse cx="120" cy="266" rx="78" ry="8" fill="#2a2419" opacity="0.10"></ellipse>
+
+  <g stroke="#2a2419" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 80 230 Q 60 240 56 252 Q 56 264 70 264 Q 88 264 96 254 L 96 232 Z" fill="#b6bd7c"></path>
+    <path d="M 160 230 Q 180 240 184 252 Q 184 264 170 264 Q 152 264 144 254 L 144 232 Z" fill="#b6bd7c"></path>
+    <path d="M 70 180 Q 68 168 82 162 L 158 162 Q 172 168 170 180 L 168 232 Q 168 244 156 244 L 84 244 Q 72 244 72 232 Z" fill="#b6bd7c"></path>
+    <circle cx="108" cy="232" r="3" fill="#fff6ec" stroke-width="2"></circle>
+    <circle cx="132" cy="232" r="3" fill="#fff6ec" stroke-width="2"></circle>
+    <ellipse cx="60" cy="200" rx="14" ry="22" fill="#b6bd7c"></ellipse>
+    <ellipse cx="180" cy="200" rx="14" ry="22" fill="#b6bd7c"></ellipse>
+    <circle cx="60" cy="222" r="11" fill="#fde0c2"></circle>
+    <circle cx="180" cy="222" r="11" fill="#fde0c2"></circle>
+    <path d="M 108 158 Q 120 162 132 158 L 132 168 Q 120 172 108 168 Z" fill="#fde0c2"></path>
+    <ellipse cx="120" cy="100" rx="68" ry="64" fill="#fde0c2"></ellipse>
+    <ellipse cx="55" cy="105" rx="7" ry="11" fill="#fde0c2"></ellipse>
+    <ellipse cx="185" cy="105" rx="7" ry="11" fill="#fde0c2"></ellipse>
+  </g>
+
+  <path d="M 110 42 Q 116 32 120 42 Q 124 32 130 42 Q 122 50 120 50 Q 118 50 110 42 Z" fill="#2a2419" stroke="#2a2419" stroke-width="2" stroke-linejoin="round"></path>
+  <path d="M 75 58 Q 78 50 86 54 Q 90 60 84 64 Q 78 64 75 58 Z" fill="#2a2419"></path>
+  <path d="M 165 58 Q 162 50 154 54 Q 150 60 156 64 Q 162 64 165 58 Z" fill="#2a2419"></path>
+
+  <ellipse cx="76" cy="118" rx="12" ry="9" fill="#ffb0bd" opacity="0.75"></ellipse>
+  <ellipse cx="164" cy="118" rx="12" ry="9" fill="#ffb0bd" opacity="0.75"></ellipse>
+
+  
+  <path d="M 88 108 Q 97 114 106 108" stroke="#2a2419" stroke-width="3" fill="none" stroke-linecap="round"></path>
+  <path d="M 134 108 Q 143 114 152 108" stroke="#2a2419" stroke-width="3" fill="none" stroke-linecap="round"></path>
+
+  
+  <path d="M 90 88 L 104 88" stroke="#2a2419" stroke-width="2.6" stroke-linecap="round" fill="none"></path>
+  <path d="M 136 88 L 150 88" stroke="#2a2419" stroke-width="2.6" stroke-linecap="round" fill="none"></path>
+
+  <path d="M 117 118 Q 120 122 123 118" stroke="#2a2419" stroke-width="2" fill="none" stroke-linecap="round"></path>
+
+  
+  <ellipse cx="120" cy="134" rx="5" ry="4" fill="#ffb0bd" stroke="#2a2419" stroke-width="2"></ellipse>
+
+  
+  <text x="186" y="62" font-family="Zen Maru Gothic, sans-serif" font-size="20" font-weight="700" fill="#b6bd7c">z</text>
+  <text x="200" y="44" font-family="Zen Maru Gothic, sans-serif" font-size="24" font-weight="700" fill="#97a05c">z</text>
+  <text x="216" y="22" font-family="Zen Maru Gothic, sans-serif" font-size="28" font-weight="700" fill="#7a8347">Z</text>
+</svg>

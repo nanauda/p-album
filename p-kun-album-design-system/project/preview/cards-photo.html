@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:#fbfdf2;}
+  .card{box-sizing:border-box;padding:24px;width:700px;background:#fbfdf2; display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;}
+  .photo-card{
+    width:200px; background:#fff; border-radius:20px; overflow:hidden;
+    box-shadow: 0 8px 20px rgba(40,46,28,.10), 0 1px 3px rgba(40,46,28,.06);
+  }
+  .photo-card .ph{height:140px; background: linear-gradient(135deg, #d3d8a8, #ffb558);}
+  .photo-card.b .ph{background: linear-gradient(135deg, #ffc9d6, #ffd092);}
+  .photo-card.c .ph{background: linear-gradient(135deg, #d2f0db, #d3d8a8);}
+  .photo-card .meta{padding:14px 16px;}
+  .photo-card .title{font-family:"Zen Maru Gothic",sans-serif; font-weight:700; font-size:15px; color:#272a18; margin:0;}
+  .photo-card .sub{font-family:"M PLUS Rounded 1c",sans-serif; font-size:12px; color:#969b78; margin-top:4px;}
+  .label{font-family:"M PLUS Rounded 1c",sans-serif; font-size:11px; color:#6b6f53; letter-spacing:0.1em; text-transform:uppercase; font-weight:600; width:100%; margin-bottom:0;}
+</style></head><body>
+<div class="card">
+  <div class="label">Photo cards · the heart of the product</div>
+  <div class="photo-card"><div class="ph"></div><div class="meta"><div class="title">はじめての公園</div><div class="sub">12枚 · 4月28日</div></div></div>
+  <div class="photo-card b"><div class="ph"></div><div class="meta"><div class="title">おひるね</div><div class="sub">3枚 · 昨日</div></div></div>
+  <div class="photo-card c"><div class="ph"></div><div class="meta"><div class="title">おさんぽ</div><div class="sub">8枚 · 今朝</div></div></div>
+</div>
+</body></html>

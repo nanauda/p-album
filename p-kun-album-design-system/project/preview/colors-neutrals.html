@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html, body { margin:0; padding:0; background: var(--bg); }
+  .card { box-sizing:border-box; padding:20px 24px; width:700px; background:#fff; }
+  .row { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+  .swatch { width:90px; height:78px; border-radius:14px; box-shadow:var(--shadow-sm);
+    display:flex; flex-direction:column; justify-content:flex-end; padding:6px 8px;
+    font-family:var(--font-body); font-size:10px; font-weight:700; }
+  .swatch .hex { opacity:0.65; font-weight:500; font-size:9px; }
+  .swatch.dark { color: #fff; }
+  .label { font-family:var(--font-body); font-size:12px; color:var(--fg-muted); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:12px; font-weight:600;}
+</style></head><body>
+<div class="card">
+  <div class="label">Neutrals · Yellow-green tinted (黄緑ベース)</div>
+  <div class="row">
+    <div class="swatch" style="background:#fbfdf2; border:1px solid #e7ecd0">paper<div class="hex">#fbfdf2</div></div>
+    <div class="swatch" style="background:#f3f5e3">cloud<div class="hex">#f3f5e3</div></div>
+    <div class="swatch" style="background:#e7ecd0">mist<div class="hex">#e7ecd0</div></div>
+    <div class="swatch" style="background:#dde2c1">stone-100<div class="hex">#dde2c1</div></div>
+    <div class="swatch" style="background:#c2c8a3">stone-200<div class="hex">#c2c8a3</div></div>
+    <div class="swatch dark" style="background:#969b78">stone-300<div class="hex">#969b78</div></div>
+    <div class="swatch dark" style="background:#6b6f53">stone-400<div class="hex">#6b6f53</div></div>
+    <div class="swatch dark" style="background:#42452f">stone-500<div class="hex">#42452f</div></div>
+    <div class="swatch dark" style="background:#272a18">stone-600 ★<div class="hex">#272a18</div></div>
+  </div>
+</div>
+</body></html>

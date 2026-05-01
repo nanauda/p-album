@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html, body { margin:0; padding:0; background: var(--bg); }
+  .card { box-sizing:border-box; padding:24px; width:700px; background:#fff; }
+  .row { display:flex; gap:16px; flex-wrap:wrap; }
+  .chip {
+    display:flex; align-items:center; gap:10px;
+    padding:12px 18px; border-radius: 999px;
+    font-family:var(--font-body); font-weight: 600; font-size: 14px;
+  }
+  .dot { width:10px; height:10px; border-radius:999px; }
+  .label { font-family:var(--font-body); font-size:12px; color:var(--fg-muted); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:14px; font-weight:600;}
+  .pair { display:flex; flex-direction:column; gap:6px; }
+  .pair-title { font-family:var(--font-display); font-size: 13px; font-weight:700; color:var(--fg-muted); }
+</style></head><body>
+<div class="card">
+  <div class="label">Semantic / status</div>
+  <div class="row">
+    <div class="pair">
+      <div class="pair-title">Success</div>
+      <div class="chip" style="background:#d2f0db; color:#2a8a4a;"><span class="dot" style="background:#45b06a"></span>アップロード完了</div>
+    </div>
+    <div class="pair">
+      <div class="pair-title">Warning</div>
+      <div class="chip" style="background:#ffe6c8; color:#8a4d0c;"><span class="dot" style="background:#f5942a"></span>容量がもうすぐいっぱい</div>
+    </div>
+    <div class="pair">
+      <div class="pair-title">Danger</div>
+      <div class="chip" style="background:#ffe6ec; color:#b53a5a;"><span class="dot" style="background:#ec6385"></span>削除しますか？</div>
+    </div>
+    <div class="pair">
+      <div class="pair-title">Info</div>
+      <div class="chip" style="background:#e9ecd2; color:#5d6535;"><span class="dot" style="background:#97a05c"></span>新しい写真があります</div>
+    </div>
+  </div>
+</div>
+</body></html>
