@@ -104,11 +104,13 @@ public/
 
 ## 開発
 
+パッケージマネージャは **pnpm** を使用します（`packageManager` フィールドで pin 済み）。Corepack 経由で自動的に正しいバージョンが使われます。
+
 ```bash
-npm install      # 依存をインストール
-npm run dev      # http://localhost:5173/ で開発サーバー起動
-npm run build    # dist/ に本番ビルド
-npm run preview  # ビルド成果物をプレビュー
+pnpm install   # 依存をインストール
+pnpm dev       # http://localhost:5173/ で開発サーバー起動
+pnpm build     # dist/ に本番ビルド
+pnpm preview   # ビルド成果物をプレビュー
 ```
 
 ---
