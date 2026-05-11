@@ -112,9 +112,3 @@ pnpm dev       # http://localhost:5173/ で開発サーバー起動
 pnpm build     # dist/ に本番ビルド
 pnpm preview   # ビルド成果物をプレビュー
 ```
-
----
-
-## ライセンス
-
-未定。マスコット・ロゴ等のオリジナルアートは Claude Design が生成したものを利用しています。
